@@ -1,0 +1,110 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Barlow Semi Condensed", sans-serif;
+}
+main {
+    background-color: hsl(214, 17%, 92%);
+    display: flex;
+    justify-content: center;
+}
+main > section {
+    width: 70%;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 18em 17em;
+    gap: 2em;
+    margin-top: 8em;
+    margin-bottom: 8em;
+}
+main > section > article {
+    border-radius: 0.5em;
+    padding: 2em;
+}
+article > .profile {
+    display: flex;
+    gap: 1em;
+}
+article > .profile > div > img {
+    width: 2em;
+    border-radius: 50%;
+}
+article > .profile > div > h5 {
+    color: hsl(0, 0%, 100%);
+    font-weight: 500;
+}
+article > .profile > div > h6 {
+    color: hsl(0, 0%, 100%);
+    margin-top: 0.4em;
+    font-weight: 400;
+}
+article > .profile > div > .head1 {
+    color: hsl(217, 19%, 35%);
+    font-weight: 700;
+}
+article > .profile > div > .head2 {
+    color: hsl(217, 19%, 35%);
+    font-weight: 500;
+    margin-top: 0.4em;
+}
+article > .content {
+    margin-top: 1em;
+}
+article > .content > h3 {
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
+}
+article > .content > p {
+    color: hsl(0, 0%, 100%);
+    margin-top: 1em;
+    font-size: 0.9em;
+}
+.head3 {
+    color: hsl(217, 19%, 35%);
+    font-weight: 700;
+}
+.para1{
+    color: hsl(224, 10%, 45%);
+    margin-top: 1em;
+    font-size: 13.5px;
+    line-height: 1.4em;
+}
+p {
+    margin-top: 1em;
+    font-size: 13.5px;
+    line-height: 1.4em;
+}
+#art1 {
+    grid-column: span 2;
+    background-color: hsl(263, 55%, 52%);
+    background-image: url(./images/bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-position-x: 80%;
+    color: rgba(255, 255, 255, 0.84);
+}
+#art2 {
+    background-color: hsl(217, 19%, 35%);
+    color: rgba(255, 255, 255, 0.84);
+}
+#art3 {
+    grid-row: span 2;
+    background-color: hsl(0, 0%, 100%);
+}
+#art4 {
+    background-color: hsl(0, 0%, 100%);
+}
+#art5 {
+    grid-column: span 2;
+    background-color: #191f2d;
+    color: rgba(255, 255, 255, 0.84);
+}
+@media all and (max-width: 375px) {
+    main > section {
+    width: 80%;
+    display: block;
+}
+    main > section > article {
+    margin-top: 2em;
+}
+}

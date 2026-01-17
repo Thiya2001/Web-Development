@@ -1,0 +1,22 @@
+* {
+    margin: opx;
+    padding: 0px;
+    box-sizing: border-box;
+}
+section {
+    background-color: #000000;
+    color: white;
+    display: grid;
+    grid-template-columns: 20% 20% 20%;
+    grid-template-rows: 100px 100px 100px 100px;
+    justify-content: space-between;
+    align-content: space-between;
+    height: 100vh;
+}
+section > div {
+    background-color: rgb(37, 11, 165);
+}
+#div1 {
+    grid-column-start: span 3;
+    /* grid-row-start: span 2; */
+}

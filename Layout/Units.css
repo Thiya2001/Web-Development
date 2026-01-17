@@ -1,0 +1,39 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+/* html {
+    font-size: 50px;
+} */
+div {
+    font-size: 20px;
+}
+div :first-child {
+    color: chartreuse;
+    font-size: 32px;
+}
+div :nth-child(2) {
+    color: rgb(255, 87, 34);
+    font-size: 2em;
+}
+div :last-child {
+    color: rgb(137, 83, 191);
+    font-size: 3rem;
+}
+section {
+    font-size: 30px;
+    width: 600px;
+}
+section :first-child {
+    background-color: rgb(228, 17, 17);
+    width: 1528px;
+}
+section :nth-child(2) {
+    background-color: rgb(72, 26, 58);
+    width: 100%;
+}
+section :last-child {
+    background-color: rgb(3, 169, 244);
+    width: 100vw;
+}

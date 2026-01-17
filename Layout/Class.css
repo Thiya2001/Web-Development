@@ -1,0 +1,52 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+button:hover {
+    background-color: red;
+    color: white;
+}
+#btn1:active {
+    background-color: #6924ff;
+}
+a:link {
+    color: rgb(207, 56, 82);
+}
+a:visited {
+    color: rgb(94, 255, 0);
+}
+ul :first-child {
+    color: rgb(36, 176, 188);
+}
+ul :nth-child(2) {
+    color: rgb(255, 0, 110);
+}
+ul :nth-child(3) {
+    color: rgb(255, 153, 0);
+}
+ul :nth-child(4) {
+    color: rgb(0, 153, 255);
+}
+ul :nth-child(5) {
+    color: rgb(153, 0, 255);
+}
+ul :nth-child(6) {
+    color: rgb(151, 151, 68);
+}
+ul :last-child {
+    color: rgb(53, 192, 78);
+}
+/* ul :nth-child(2n) {
+    color: rgb(121, 8, 8);
+}
+ul :nth-child(2n-1) {
+    color: rgb(56, 73, 149);
+} */
+input:enabled {
+    background-color: rgb(109, 172, 109);
+}
+input:disabled {
+    background-color: rgb(163, 43, 43);
+}
+input:focus {
+    background-color: rgb(111, 111, 40);
+}

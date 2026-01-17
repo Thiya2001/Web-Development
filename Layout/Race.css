@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+i{
+    font-size: 50px;
+    position: absolute;
+}
+div{
+    position: relative;
+    height: 100px;
+    background-color: orange;
+    margin-top: 20px;
+}
+.fa-car{
+    animation: race 5s ease-in 1s 2 alternate ;
+    /*
+    animation-name: race;
+    animation-duration: 5s;
+    animation-iteration-count: 2;
+    animation-delay: 1s;
+    animation-timing-function: ease-in;
+    animation-direction: alternate;
+    */
+}
+.fa-car-side{
+    animation: race 5s ease-out 1s 2 alternate ;
+
+}
+.fa-car-on{
+    animation: race 5s ease-in-out 1s 2 alternate ;
+
+}
+.fa-caravan{
+    animation: race 5s linear 1s 2 alternate ;
+
+}
+
+@keyframes race{
+    from{
+        left: 0%;
+    }
+    to{
+        left: 98%;
+    }
+}

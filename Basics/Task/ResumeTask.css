@@ -1,0 +1,53 @@
+body {
+    background-color: #c8d862;
+}
+#r1 {
+    text-align: center;
+}
+#r1, img {
+    width: 200px;
+    height: 200px;
+    transition: 2s;
+}
+#r2 {
+    text-align: center;
+    margin-left: 300px;
+    margin-top: -225px;
+}
+#r2, img {
+    width: 200px;
+    height: 200px;
+}
+#r3 {
+    text-align: center;
+    margin-left: 600px;
+    margin-top: -278px;
+}
+#r3, img {
+    width: 200px;
+    height: 200px;
+}
+
+#r1, img:hover {
+    width: 250px;
+    height: 250px;
+}
+#r2, img:hover {
+    width: 250px;
+    height: 250px;
+}
+#r3, img:hover {
+    width: 250px;
+    height: 250px;
+}
+#sign {
+    margin-left: 750px;
+    margin-top: -65px;
+}
+#place {
+    margin-bottom: -15px;
+}
+#sign1 {
+    margin-bottom: -18px;
+}
+

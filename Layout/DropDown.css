@@ -1,0 +1,41 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    background-image: url(..//Layout/Images/dropdown1.webp);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+nav {
+    background-color: rgba(255, 255, 255, 0.421);
+}
+nav>ul {
+    display: flex;
+    list-style-type: none;
+    gap: 100px;
+}
+nav a {
+    color: rgb(121, 1, 1);
+    text-decoration: none;
+    padding: 20px;
+    display: block;
+    font-weight: 600;
+    font-size: larger;
+}
+a:hover {
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+}
+#down {
+    background-color: rgb(236, 112, 133);
+    text-align: center;
+    list-style-type: none;
+    position: absolute;
+    display: none;
+    font-size: 13.5px;
+}
+#drop:hover #down{
+    display: block;
+}

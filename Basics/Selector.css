@@ -1,0 +1,35 @@
+/* Element Selector */
+h1 {
+    color: darkorange;
+}
+/* Grouping Selector */
+h3,h4 {
+    color: blue;
+}
+/* Class Selector */
+.d1,h1 {
+    color: aqua;
+}
+.d2,h1 {
+    color: chartreuse;
+}
+.d3,h1 {
+    color: deeppink;
+}
+.vrp {
+    color: indigo;
+}
+.v {
+    color: rgb(103, 77, 47);
+    font-size: 50px;
+}
+/* Id Selector */
+#virat {
+    color: rgb(109, 138, 104);
+}
+/* Universal Selector */
+* {
+    color: cornflowerblue;
+}
+
+

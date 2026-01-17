@@ -1,0 +1,26 @@
+* {
+    font-family: "Lora", serif;
+}
+h1 {
+    display: inline;
+    background-color: #a70303;
+    width: 200px;
+}
+span {
+    display: inline-block;
+    background-color: palevioletred;
+    width: 300px;
+}
+img {
+    width: 450px;
+    height: 450px;
+}
+header {
+    display: inline;
+}
+a {
+    display: inline-block;
+}
+iframe {
+    display: block;
+}

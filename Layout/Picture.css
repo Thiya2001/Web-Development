@@ -1,0 +1,34 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+/* div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+} */
+.fa-spotify {
+    font-size: 60px;
+    color: rgb(27, 217, 95);
+    transition: 2s;
+    transition-property: all;
+    transition-delay: 2s;
+    transition-timing-function: ease-in;
+    transition-duration: 2s;
+}
+.fa-spotify:hover {
+    /* transform: rotate(270deg); */
+    /* font-size: 80px; */
+    transform: scale(3);
+}
+img {
+    width: 200px;
+    height: 200px;
+    transition: all 2s ease-in 2s;
+}
+img:hover {
+    /* transform: skew(50deg); */
+    transform: translate(700px, 200px);
+}

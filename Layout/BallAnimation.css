@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+i{
+    font-size: 40px;
+    position: absolute;
+}
+div{
+    position: relative;
+    height: 100vh;
+    background-color: orange;
+    margin-top: 20px;
+}
+.fa-bowling-ball{
+    animation: ball 5s linear 1s infinite alternate ;
+    /*
+    animation-name: race;
+    animation-duration: 5s;
+    animation-iteration-count: 2;
+    animation-delay: 1s;
+    animation-timing-function: ease-in;
+    animation-direction: alternate;
+    */
+}
+@keyframes ball{
+    0%{
+        left: 0%;
+        top: 0%;
+    }
+    25%{
+        left: 98%;
+        top:25%;
+    }
+    50%{
+        left: 0%;
+        top: 50%;
+    }
+    75%{
+        left: 98%;
+        top: 75%;
+    }
+    100%{
+        left: 0%;
+        top: 100%;
+    }
+}

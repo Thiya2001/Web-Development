@@ -1,0 +1,22 @@
+* {
+    font-family: "Tagesschrift", system-ui;
+}
+body {
+    background-color: white;
+}
+header {
+    display: flex;
+    gap: 30px;
+    justify-content: space-evenly;
+    background-color: #e0ddddcc;
+    align-items: center;
+}
+img {
+    width: 25px;
+    height: 25px;
+}
+#secondClass {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}

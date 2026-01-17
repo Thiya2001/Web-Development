@@ -1,0 +1,67 @@
+* {
+    font-family: "Inconsolata", monospace;
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    background-color: #8f227e;
+    background: radial-gradient(red, rgb(161, 223, 234), rgb(62, 96, 46));
+
+}
+main {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+div {
+    /* background-color: yellow; */
+    overflow: hidden;
+    width: 20%;
+}
+img {
+    width: 100%;
+    height: 400px;
+    transition: 2s;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 5px 7px 5px;
+}
+h4 {
+    font-size: x-large;
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+}
+h3 {
+    font-size: larger;
+    margin-top: 10px;
+}
+del {
+    color: red;
+}
+i {
+    color: yellow;
+    padding-bottom: 10px;
+}
+button {
+    width: 100%;
+    height: 40px;
+    font-size: larger;
+    font-weight: bolder;
+    border-radius: 20px;
+    color: rgb(42, 52, 148);
+    background-color: green;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #e333da;
+    color: rgb(11, 243, 166);
+}
+button:active {
+    background-color: #000000;
+    color: white;
+}
+img:hover {
+    transform: scale(1.3);
+}

@@ -1,0 +1,119 @@
+* {
+    padding: 0px;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    box-sizing: border-box;
+}
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #e6eff6;
+}
+main > section {
+    width: 40%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 225px 225px;
+    box-shadow: 2px 5px 10px 5px #a8aab645;
+}
+#div1 {
+    grid-column: span 2;
+    background-color: rgb(255, 255, 255);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding-bottom: 20px;
+}
+#div1 > h3 {
+    padding-top: 42px;
+    padding-left: 35px;
+    color: #48aaa5;
+    font-size: 25px;
+
+}
+#div1 > h5 {
+    padding-left: 35px;
+    padding-top: 25px;
+    color: hsla(71, 73%, 54%, 0.825);
+    font-size: 19px;
+    font-weight: 700;
+}
+#div1 > p {
+    padding-top: 15px;
+    padding-left: 35px;
+    color: #a8aab690;
+    font-weight: 700;
+    line-height: 25px;
+}
+#div2 {
+    background-color: rgb(43, 179, 177);
+    color: hsl(204, 43%, 93%);
+    border-bottom-left-radius: 5px;
+    padding-bottom: 20px;
+}
+#div2 > h4 {
+    padding-left: 35px;
+    padding-top: 35px;
+    padding-bottom: 0px;
+    font-weight: 14px;
+    font-size: 17px;
+}
+#div2 > h1 {
+    color: hsl(0, 0%, 100%);
+    padding-top: 22px;
+    padding-left: 35px;
+    margin-top: -8px;
+    padding-bottom: 0px;
+    font-size: 28px;
+}
+#div2 > #p1 {
+    color: hsla(203, 44%, 93%, 0.489);
+    padding-left: 90px;
+    margin-top: -45px;
+}
+#div2 > p {
+    padding-top: 17px;
+    padding-left: 35px;
+}
+#div2 > button {
+    margin-top: 25px;
+    margin-left: 35px;
+    padding: 12px 83px;
+    font-weight: 600;
+    color: white;
+    background-color: hsl(71, 73%, 54%);
+    border: none;
+    border-radius: 5px;
+}
+#div3 {
+    background-color: rgb(75, 189, 188);
+    color: hsla(200, 16%, 93%, 0.647);
+    border-bottom-right-radius: 5px;
+    padding-bottom: 20px;
+}
+#div3 > h4 {
+    padding-top: 35px;
+    padding-left: 35px;
+    color: rgb(218, 234, 235);
+    font-weight: 800;
+}
+#div3 > p {
+    padding-top: 14px;
+    padding-left: 35px;
+    color: rgb(165, 239, 241);
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+}
+@media(max-width: 500px) {
+    main {
+        height: auto;
+    }
+    main > section {
+        width: 90%;
+        display: block;
+    }
+}

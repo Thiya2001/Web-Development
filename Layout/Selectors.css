@@ -1,0 +1,27 @@
+/* div>h1{
+    color: aqua;
+} */
+div h1{
+    color:#f23f33;
+}
+p+button{
+    background-color:chartreuse;
+}
+p~button{
+    background-color:chartreuse;
+}
+p::first-line{
+    color: blue;
+}
+p::after{
+    content: "i am from css";
+}
+p::before{
+    content: "loki";
+}
+li::marker{
+    color:red;
+}
+li::selection{
+    background-color: brown;
+}

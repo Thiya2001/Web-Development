@@ -1,0 +1,26 @@
+#font{
+    font-family: "Lora", serif;
+    color: darkolivegreen;
+}
+#font1{
+    font-family: "Inconsolata", monospace;
+    color: forestgreen;
+}
+img{
+    width: 400px;
+    height: 400px;
+    border: 10px dotted red;
+    padding: 20px 20px 20px 20px;
+    /* padding: 20px 200px; */
+    /* padding: 200px; */
+    /* padding: 20px; */
+    margin-top: 50px;
+    margin-left: 100px;
+    border-radius: 50%;
+    transition: 1s;
+}
+img:hover {
+    width: 500px;
+    height: 500px;
+    transform: rotate(7200deg);
+}

@@ -1,0 +1,58 @@
+div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    animation-name: disco;
+    animation-duration: 5s;
+    animation-iteration-count: 3;
+    animation-delay: 2s;
+    animation-direction: alternate;/*reverse,alternate,normal*/
+    animation-fill-mode: forwards;/*forwards,backwards*/
+}
+i{
+    color: red;
+    animation: heart 4s linear 1s infinite;
+}
+@keyframes heart{
+    /* from{
+        font-size: 16px;
+    }
+    to{
+        font-size: 100px;
+    } */
+
+    0%{
+        font-size: 16px;
+    }
+    25%{
+        font-size: 100px;
+    }
+    50%{
+        font-size: 16px;
+    }
+    75%{
+        font-size: 100px;
+    }
+    100%{
+        font-size: 16px;
+    }
+}
+@keyframes disco{
+    0%{
+        background-color: blue;
+    }
+    25%
+    {
+        background-color: purple;
+    }
+    50%{
+        background-color: yellow;
+    }
+    75%{
+        background-color: green;
+    }
+    100%{
+        background-color: black;
+    }
+}

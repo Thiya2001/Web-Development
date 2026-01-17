@@ -1,0 +1,132 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+/* body {
+    background-image: url(..//Layout/Images/forty1.jpg);
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: center;
+    background-position: bottom center;
+    background-size: cover;
+    height: 100vh;
+} */
+main {
+    display: grid;
+    grid-template-columns: 40% 20% 40%;
+    grid-template-rows: 320px 320px 320px;
+}
+#bgimg1 {
+    background-image: url(..//Layout/Images/forty1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#bgimg2 {
+    background-image: url(..//Layout/Images/forty2.jpg);
+    grid-column-start: span 2;
+}
+#bgimg3 {
+    background-image: url(..//Layout/Images/forty3.jpg);
+    grid-column-start: span 2;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#bgimg4 {
+    background-image: url(..//Layout/Images/forty4.jpg);
+}
+#bgimg5 {
+    background-image: url(..//Layout/Images/forty5.jpg);
+}
+#bgimg6 {
+    background-image: url(..//Layout/Images/forty6.jpg);
+    grid-column-start: span 2;
+}
+#bgimg1 #bgclr1 {
+    background-color: #7ac0d9d9;
+    height: 100%;
+}
+#bgimg2 #bgclr2 {
+    background-color: #8278b5d5;
+    height: 100%;
+}
+#bgimg3 #bgclr3 {
+    background-color: #d5827ad0;
+    height: 100%;
+}
+#bgimg4 #bgclr4 {
+    background-color: #d0a781d0;
+    height: 100%;
+}
+#bgimg5 #bgclr5 {
+    background-color: #7e98cfd3;
+    height: 100%;
+}
+#bgimg6 #bgclr6 {
+    background-color: #7aae97d4;
+    height: 100%;
+}
+#bgimg1 #bgclr1:hover {
+    background-color: transparent;
+    transition: 1s;
+    cursor: pointer;
+    /* transform: scale(1.2); */
+}
+#bgimg2 #bgclr2:hover {
+    background-color: transparent;
+    transition: 1s;
+    cursor: pointer;
+}
+#bgimg3 #bgclr3:hover {
+    background-color: transparent;
+    transition: 1s;
+    cursor: pointer;
+}
+#bgimg4 #bgclr4:hover {
+    background-color: transparent;
+    transition: 1s;
+    cursor: pointer;
+}
+#bgimg5 #bgclr5:hover {
+    background-color: transparent;
+    transition: 1s;
+    cursor: pointer;
+}
+#bgimg6 #bgclr6:hover {
+    background-color: transparent;
+    transition: 1s;
+    cursor: pointer;
+}
+h3 {
+    color: white;
+    font-size: 30px;
+    letter-spacing: 1.3px;
+    margin-bottom: 15px;
+    padding-top: 100px;
+    padding-left: 80px;
+}
+hr {
+    height: 2.8px;
+    background-color: #fff;
+    width: 220px;
+    margin-left: 80px;
+    border: none;
+}
+p {
+    color: white;
+    font-size: 13px;
+    font-weight: 800;
+    letter-spacing: 2.6px;
+    padding-top: 18px;
+    padding-left: 80px;
+    text-transform: uppercase;
+}
+@media screen and (max-width:500px)
+{
+    article{
+        display: block;
+    }
+    div{
+        display: none;
+    }
+}

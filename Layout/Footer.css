@@ -1,0 +1,77 @@
+* {
+    font-family: "Inconsolata", monospace;
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background-color: yellow;
+}
+footer {
+    height: 100hv;
+    display: flex;
+    align-items: end;
+    margin-top: 20%;
+}
+section {
+    background-color: #000000;
+    padding-top: 10px;
+    width: 100%;
+}
+#firstDiv {
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+}
+ul {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+    display: block;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 0px;
+    margin-top: 10px;
+}
+#secondDiv {
+    display: flex;
+    padding-top: 40px;
+}
+#secondDiv {
+    margin-left: 440px;
+}
+#KFC {
+    width: 50px;
+    height: 50px;
+}
+.play {
+    width: 140px;
+    height: 40px;
+    margin-top: -27px;
+}
+#apple, .play {
+    padding-bottom: 18px;
+}
+#map {
+    text-decoration: underline;
+}
+h4 .fa-location-dot {
+    color: red;
+    padding-right: 6px;
+}
+#images {
+    display: flex;
+    padding-left: 230px;
+    padding-bottom: 60px;
+}
+#images, img {
+    display: flex;
+    padding-right: 10px;
+    width: 35px;
+    height: 35px;
+    padding-bottom: 30px;
+}
+p {
+    padding-top: 8px;
+}

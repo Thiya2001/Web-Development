@@ -1,0 +1,66 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+section {
+    background-color: black;
+    color: white;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 100px 100px 100px 100px;
+}
+#div1 {
+    background-color: rgb(37, 11, 165);
+    grid-column-start: span 3;
+    text-align: center;
+    align-content: center;
+}
+#div2 {
+    background-color: rgb(168, 69, 50);
+    text-align: center;
+    align-content: center;
+}
+#div3 {
+    background-color: rgb(194, 138, 56);
+    text-align: center;
+    align-content: center;
+}
+#div4 {
+    background-color: rgb(191, 73, 214);
+    text-align: center;
+    align-content: center;
+}
+#div5 {
+    background-color: rgb(13, 81, 136);
+    text-align: center;
+    align-content: center;
+}
+#div6 {
+    background-color: rgb(134, 132, 22);
+    text-align: center;
+    align-content: center;
+}
+#div7 {
+    background-color: rgb(68, 102, 59);
+    grid-column-start: span 2;
+    grid-row-start: span 2;
+    text-align: center;
+    align-content: center;
+}
+#div8 {
+    background-color: rgb(49, 57, 146);
+    grid-column-start: span 2;
+    text-align: center;
+    align-content: center;
+}
+#div9 {
+    background-color: rgb(197, 179, 43);
+    text-align: center;
+    align-content: center;
+}
+#div10 {
+    background-color: rgb(108, 18, 102);
+    text-align: center;
+    align-content: center;
+}

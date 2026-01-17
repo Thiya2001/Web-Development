@@ -1,0 +1,58 @@
+h1{
+    color: yellow;
+    font-size: 40px;
+    font-weight: 50;
+    text-align: center;
+    letter-spacing: 20px;
+    word-spacing: 50px;
+    text-transform: capitalize;
+    text-shadow: -50px -20px 5px black;
+    transition: 3s;
+}
+
+h2{
+    color: blue;
+    font-size: 60px;
+    font-weight: 50;
+    text-align: left;
+    text-transform: capitalize;
+    transition: 3s;
+    }
+
+h3{
+    color: red;
+    font-size: 40px;
+    font-weight: 50;
+    text-align: right;
+    text-transform:lowercase;
+    word-spacing: 0px;
+}
+h4{
+    color: black;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 50;
+    text-transform:lowercase;
+    word-spacing: 0px;
+}
+h1:hover{
+    color: chocolate;
+    font-size: 80px;
+    letter-spacing: 20px;
+
+}
+h2:hover{
+    color: gold;
+    font-size: 80px;
+    letter-spacing: 20px;
+}
+h3:hover{
+    color: chartreuse;
+    letter-spacing: 80px;
+    font-size: 50px;
+}
+h4:hover{
+    color: darkgreen;
+    letter-spacing: 80px;
+    font-size: 50px;
+}

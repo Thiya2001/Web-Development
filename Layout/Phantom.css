@@ -1,0 +1,257 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+main {
+    margin-top: 50px;
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 25% 25% 25%;
+    grid-template-rows: 350px 350px 350px 350px;
+    justify-content: center;
+    gap: 50px;
+}
+#bgimg1 {
+    background-image: url(..//Layout/Images/phantom1.jpg);
+    background-size: cover;
+    transition: 0.5s;
+    border-radius: 5px;
+}
+#bgimg2 {
+    background-image: url(..//Layout/Images/phantom2.jpg);
+    background-size: cover;
+    transition: 0.5s;
+    border-radius: 5px;
+}
+#bgimg3 {
+    background-image: url(..//Layout/Images/phantom3.jpg);
+    background-size: cover;
+    transition: 0.5s;
+    border-radius: 5px;
+}
+#bgimg4 {
+    background-image: url(..//Layout/Images/phantom4.jpg);
+    background-size: cover;
+    transition: 0.5s;
+    border-radius: 5px;
+}
+#bgimg5 {
+    background-image: url(..//Layout/Images/phantom5.jpg);
+    background-size: cover;
+    transition: 0.5s;
+    border-radius: 5px;
+}
+#bgimg6 {
+    background-image: url(..//Layout/Images/phantom6.jpg);
+    background-size: cover;
+    transition: 0.5s;
+    border-radius: 5px;
+}
+#bgimg7 {
+    background-image: url(..//Layout/Images/phantom7.jpg);
+    background-size: cover;
+    transition: 0.5s;
+    border-radius: 5px;
+}
+#bgimg8 {
+    background-image: url(..//Layout/Images/phantom8.jpg);
+    background-size: cover;
+    transition: 0.5s;
+    border-radius: 5px;
+}
+#bgimg9 {
+    background-image: url(..//Layout/Images/phantom9.jpg);
+    background-size: cover;
+    transition: 0.5s;
+    border-radius: 5px;
+}
+#bgimg10 {
+    background-image: url(..//Layout/Images/phantom10.jpg);
+    background-size: cover;
+    transition: 0.5s;
+    border-radius: 5px;
+}
+#bgimg11 {
+    background-image: url(..//Layout/Images/phantom11.jpg);
+    background-size: cover;
+    transition: 0.5s;
+    border-radius: 5px;
+}
+#bgimg12 {
+    background-image: url(..//Layout/Images/phantom12.jpg);
+    background-size: cover;
+    transition: 0.5s;
+    border-radius: 5px;
+}
+#bgimg1 #bgclr1 {
+    background-color: #d4798bd5;
+    height: 100%;
+    border-radius: 5px;
+}
+#bgimg2 #bgclr2 {
+    background-color: #80c3ead2;
+    height: 100%;
+    border-radius: 5px;
+}
+#bgimg3 #bgclr3 {
+    background-color: #62aca2d1;
+    height: 100%;
+    border-radius: 5px;
+}
+#bgimg4 #bgclr4 {
+    background-color: #ce7ca6cf;
+    height: 100%;
+    border-radius: 5px;
+}
+#bgimg5 #bgclr5 {
+    background-color: #b595d0d2;
+    height: 100%;
+    border-radius: 5px;
+}
+#bgimg6 #bgclr6 {
+    background-color: #89a1ead4;
+    height: 100%;
+    border-radius: 5px;
+}
+#bgimg7 #bgclr7 {
+    background-color: #7ebadcd1;
+    height: 100%;
+    border-radius: 5px;
+}
+#bgimg8 #bgclr8 {
+    background-color: #88c7bccc;
+    height: 100%;
+    border-radius: 5px;
+}
+#bgimg9 #bgclr9 {
+    background-color: #f097aacd;
+    height: 100%;
+    border-radius: 5px;
+}
+#bgimg10 #bgclr10 {
+    background-color: #a686bacd;
+    height: 100%;
+    border-radius: 5px;
+}
+#bgimg11 #bgclr11 {
+    background-color: #908ac7c9;
+    height: 100%;
+    border-radius: 5px;
+}
+#bgimg12 #bgclr12 {
+    background-color: rgba(196, 116, 169, 0.821);
+    height: 100%;
+    border-radius: 5px;
+}
+#bgimg1:hover {
+    transform: scale(1.1);
+}
+#bgimg2:hover {
+    transform: scale(1.1);
+}
+#bgimg3:hover {
+    transform: scale(1.1);
+}
+#bgimg4:hover {
+    transform: scale(1.1);
+}
+#bgimg5:hover {
+    transform: scale(1.1);
+}
+#bgimg6:hover {
+    transform: scale(1.1);
+}
+#bgimg7:hover {
+    transform: scale(1.1);
+}
+#bgimg8:hover {
+    transform: scale(1.1);
+}
+#bgimg9:hover {
+    transform: scale(1.1);
+}
+#bgimg10:hover {
+    transform: scale(1.1);
+}
+#bgimg11:hover {
+    transform: scale(1.1);
+}
+#bgimg12:hover {
+    transform: scale(1.1);
+}
+#bgimg1 #bgclr1:hover {
+    background-color: transparent;
+    transition: 1s;
+    cursor: pointer;
+}
+#bgimg2 #bgclr2:hover {
+    background-color: transparent;
+    transition: 1s;
+    cursor: pointer;
+}
+#bgimg3 #bgclr3:hover {
+    background-color: transparent;
+    transition: 1s;
+    cursor: pointer;
+}
+#bgimg4 #bgclr4:hover {
+    background-color: transparent;
+    transition: 1s;
+    cursor: pointer;
+}
+#bgimg5 #bgclr5:hover {
+    background-color: transparent;
+    transition: 1s;
+    cursor: pointer;
+}
+#bgimg6 #bgclr6:hover {
+    background-color: transparent;
+    transition: 1s;
+    cursor: pointer;
+}
+#bgimg7 #bgclr7:hover {
+    background-color: transparent;
+    transition: 1s;
+    cursor: pointer;
+}
+#bgimg8 #bgclr8:hover {
+    background-color: transparent;
+    transition: 1s;
+    cursor: pointer;
+}
+#bgimg9 #bgclr9:hover {
+    background-color: transparent;
+    transition: 1s;
+    cursor: pointer;
+}
+#bgimg10 #bgclr10:hover {
+    background-color: transparent;
+    transition: 1s;
+    cursor: pointer;
+}
+#bgimg11 #bgclr11:hover {
+    background-color: transparent;
+    transition: 1s;
+    cursor: pointer;
+}
+#bgimg12 #bgclr12:hover {
+    background-color: transparent;
+    transition: 1s;
+    cursor: pointer;
+}
+h3 {
+    text-align: center;
+    padding-top: 150px;
+    letter-spacing: 5px;
+    font-weight: 1000;
+    color: white;
+}
+p {
+    text-align: center;
+    color: white;
+    padding-top: 12px;
+    line-height: 30px;
+    font-size: large;
+    font-weight: 200;
+}

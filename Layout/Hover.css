@@ -1,0 +1,18 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+div {
+    background-color: red;
+}
+div:hover button {
+    background-color: blue;
+    color: cornsilk;
+}
+img {
+    display: none;
+}
+section:hover img {
+    display: block;
+}

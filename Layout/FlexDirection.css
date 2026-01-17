@@ -1,0 +1,25 @@
+* {
+    font-family: "Playfair Display", serif;
+    margin: 0px;
+    padding: 0px;
+}
+/* nav {
+    background-color: orange;
+    height: 50vh;
+    display: flex;
+    justify-content: end;
+} */
+/* nav {
+    background-color: orange;
+    height: 100vh;
+    display: flex;
+    align-items: baseline;
+} */
+nav {
+    background-color: orange;
+    height: 100vh;
+    width: 25vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
