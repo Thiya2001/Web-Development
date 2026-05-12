@@ -1,0 +1,73 @@
+Ep-2 -> React_2  =>  Vite, Node js Installation and App.jsx Function create.
+
+Ep-3 -> React_3  =>  Components and Function create and Modify. ex: name App as Thiyagu
+		     <>h1,h2,h3,h4</> React Fragment inside create multiple tags.
+
+Ep-4 -> React_4  =>  1) rafce -> Automatic function create and export. One Component Inside another Component.
+		     2) Props Works -> App.jsx inside userData js Object create next User.jsx inside move the userData.
+		     3) destructuring Method - > Create js object and move one component to another component using props.
+		     4) Spread Operator -> {...userData} Use all data will move one component to another component.  Already data we can show and extra data will be added ex: {...{...userData, age: 25, email:"john123@gmail.com"}} and modify(update) the data.
+
+Ep-5 -> Hooks-1  =>  1) Hooks -> Class base components and functional component CBC very difficult atleast Hooks understand and FC No Basic of hooks.
+		     2) useState Hook = data store + update function. ex: x = 1 Add button create press Add btn x = 2, x = 3... btn click use onClick code will be create but value cannot be change. In the situation using useState Hook. All Hooks starting word is 'use'. Syntax: const [num(variable), setNum(function)] = useState(initialValue);
+
+Ep-6 -> Hooks-2  =>  1) useEffect means first time refresh Component Rerendered and button click again & again Component Rerendered. ex: YouTube again and again reload(refresh) shows different videos and Add the profile image for Any  1 Mail All the apps or website shows this mail id img this is useEffect. Syntax: useEffect(() => {},[]) Array[] is empty 1 time useEffect run and array[num1] inside any 1 value will set Add btn click total useEffect run. 
+		     
+Ep-7 -> Hooks-3  =>  1) useRef means first time refresh Component Rerendered 1 time only and button click Component not Rerendered. Value are Maintained. Syntax: const refName = useRef(initialValue); Ex: Managing Focus means 3 input box create 1 box btn click red color show 2nd and 3rd box click 2 boxes can showing only one box can be show this using useRef hook. 1st box click and 2nd box click 1st box not show red color only red clr show 2nd box.
+
+Ep-8 -> Hooks-4  =>  1) useMemo means application will be better performance quickly run and It is help of data will be Persistence. It will be return the value. Ex: YouTube 1 mins 1 million videos will be uploaded fully performance improve will running quickly it help of useMemo. 
+Syntax: 
+const memoizedValue = useMemo(() => {
+  return expensiveCalculation();
+}, [dependency]);
+
+Ep-9 -> Hooks-5  =>  1) useCallback inside enter the function it will be return the function. Ex: Shopping Mart -> Bill totally 100 product without useCallback same item will  be re-render(repeated). With useCallback function same items not will be repeated.
+Syntax: 
+const getItems = useCallback(() => {
+  return [number + 1, number + 2, number + 3];
+}, [number]);
+
+Ep-10 -> Hooks-6  =>  1) useContext without using totally 4 components 1 component inside another inside another inside another component data will be not shared. useContext with using 1st component to inside 4th component will be directly shared data. 
+Ex:
+App
+ └── Parent
+      └── Child
+           └── Grandchild
+Without using useContext App to grandchild not shared the data.
+With using useContext App to grandchild shared the data.
+                      2) We are creating the context(createContext) data used to helping hook is useContext hook.
+
+Ep-11 -> Hooks-7  =>  1) useReducer is more then 3 to 4 different activities or action perform to use this hook and It's use the complex state management. Otherwise only state variable create this useState hook use. 
+		      2) ex: increment, decrement, reset, multiply more logic cannot be use useState can be use useReducer.
+                      3) Syntax: const [state, dispatch] = useReducer(reducer, initialState); 
+
+Ep-12 -> Hooks-8  =>  1) Diff b/w useEffect and useLayoutEffect?
+                      2) useEffect means first time refresh Component Rerendered and button click again & again Component Rerendered.
+                      3) useLayoutEffect means only can be use Animation purpose.
+
+Ep-13 -> Router  =>  1) React-router-dom is a package name and react router is a library name.(VS code terminal -> npm i react-router-dom type and enter.
+                     2) BrowserRouter, Routes, Route this 3 components using entire application routing create. Single page application will create and move with in page the any other component help of the router. Ex: Home, Users, About, Contact page any component to click same page will show the component.
+                      3) dynamic Component this router can be any text accept and single component will be displayed and component contents will be different. Ex: https://www.instagram.com/:anything(any profile)/
+ 
+Ep-14 -> Redux  =>  1) Redux is Global state management tool. Different component b/w state data sharing that is providing on redux. (VS code terminal -> npm i @reduxjs/toolkit react-redux and npm i react-router-dom type and enter.
+		    2) Redux 2 important parts of Redux Store and Redux Slice.
+Diagram :
+C:\Users\USER\OneDrive\Pictures\Screenshots\a83e0ced-d013-4e4c-a40a-e30883518ad0.png
+
+EP-15 -> Class Based Vs 
+Functional Components  
+    1) Class-Based Component to create (rce)reactClassExportComponent. Life cycle method only using class based component not use functional component.                          
+    2) What is Life cycle method? Life cycle using class based component I will understand Class based Component. But i will preferred functional component.  
+    3) Functional Components is using hooks. I am really good with hooks. I am work functional component. 
+
+EP-16 -> Protected-Routes  =>  1) Protected routes or protected pages is a normally websites login after see the pages or routes. Ex: Instagram website is my profile not show only login profile showed.
+
+EP-17 -> 
+How to make an API Call in react?  => Click the button to API call make in help of fetch and axios. easy for the axios.  
+
+EP-18 -> React Query  =>  1) API make this using the react query. 1st QueryClientProvider, QueryClient are import. This is API connectivity.
+  			  2) useQuery Hook mainly use the react query core functionality can be Accessed.
+
+EP-19 -> HOC  =>  1) Higher Order Component(HOC) is a component to a function is passed to parameter on this function another component to return.
+
+EP-20 -> CRUD  =>  1) Create read update delete operations. Delete operation using installing UUID.
