@@ -1,0 +1,14 @@
+Node JS | Setup -> Chapter1  =>  1) Node.js is an open-source and cross-platform JavaScript runtime environment.  Math.js -> exports.add, sub, mul, div using another file is Server.mjs(Module javaScript) -> import {add, sub, mul, div} from './Math.js'; console.log(add(15,5)); Module import an one file to another file using Math function.
+
+File System -> Chapter2  =>  1) Read File(readFile), Write File(WriteFile)
+., Update File(appendFile), Rename File(rename) and Delete File(unlink). Normal callback function for avoid and async() await is used this method. 
+			     3) Big file handle -> createReadStream and createWriteStream. createReadStream use bigfile more line of code created. createWriteStream for new_bigfile create and bigfile to move all code new_bigfile using pipe().	
+			     4) existsSync using mkdir and rmdir create folder and remove folder.
+
+Node Package Manager -> Chapter3  =>  1) nodemon using one by one code will be change automatically executed on this file. 
+                  	   	      2) UUID -> Universally Unique Identifier using to create the id.
+
+Event Emitter -> Chapter4  =>  1) Event Emitter is an event occurs, save it to a file.
+When an event occurs --> A message is generated --> Date and unique ID are added --> Saved into a file
+
+Web Server -> Chapter5  =>  1) Create index.html and run next Server.js file create on Client sends a request --> Server is created --> HTML file is read --> Response is sent to the browser  
